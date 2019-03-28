@@ -2,7 +2,7 @@
 
 - [Syntax](#syntax)
 - [Register](#register)
-- [selber ausprobieren](#selber-ausprobieren)
+- [Selber ausprobieren](#selber-ausprobieren)
 
 ## Syntax
 
@@ -24,10 +24,22 @@
  `Mnemonic` ist der menschen-lesbare Name des Befehls, während `quelle` und `ziel` Operanten (~Variablen) sind.
 
  Operanten können Konstanten, Register, Speicheraddressen oder Labels sein. Konstanten werden mit dem Präfix `$0x` gekennzeichnet während Register ein `%` nutzen.
+ 
+ Eine Tabelle der möglichen `Mnemonics` kann unter [Common Opcodes](https://software.intel.com/en-us/articles/introduction-to-x64-assembly) gesehen werden. 
 
 ## Register
 
-Register sind Speicherorte direkt auf der CPU, wodurch sie besonders schnell beschrieben / gelesen werden können (1 CPU-Zyklus, also ~0.25ns bei einer 4GHz CPU). In der Regel beschreibt die Größe, oder auch _Breite_, eines Registers die Architektur der CPU.
-Bei einer 64-Bit CPU sind die Register 64-Bit breit.
+Register sind Speicherorte direkt auf der CPU, wodurch sie besonders schnell beschrieben / gelesen werden können (1 CPU-Zyklus, also ~0.25ns bei einer 4GHz CPU). In der Regel beschreibt die Größe, oder auch _Breite_, eines Registers die Architektur der CPU. Bei einer 64-Bit CPU sind die Register 64-Bit breit.
 
-## selber ausprobieren
+Es wird zwischen zwei Registerarten unterschieden: dem _General Purpose Register_ und dem _Special Purpose Register_. Wie die Namen schon sagen kann der _General Purpose Register_ für alle Operationen genutzt werden und seine Inhalte haben keine besondere Bedeutung für die CPU. Während das _Special Purpose Register_ für CPU-Operationen genutzt wird und die Inhalte, abhängig vom gewähltem Register, meist eine besondere Bedeutung haben. 
+
+Im Beispiel oben ist `%eax`ein _General Purpose Register_, während `%rbp`und `%rsp` _Special Purpose Register_ sind. `%rbp` ist der Base-Pointer der auf die Basis des aktuellen Stackframes zeigt, und `%rsp` zeigt auf den Kopf des Stackframes. `%rbp` hat immer einen größeren Wert als `%rsp` da der Stack nach unten wächst (Siehe Folie 255 und folgende). 
+
+## Selber ausprobieren
+
+Um sein eigenes Programm zu disassemblen benötigt ihr einen Compiler und den einen Debugger, zum Beispiel [GBD](https://www.gnu.org/software/gdb/).
+
+Nun muss das Programm mit Debug-Symbolen und keinerlei Optimierung kompiliert werden: `CFLAGS="-g -O0" make math`
+Anschließend kann das Programm mit GDB debugged werden: `gdb math`
+
+Eine detaillierterte Anleitung findet ihr in diesem [Blog Post](https://www.recurse.com/blog/7-understanding-c-by-learning-assembly).
