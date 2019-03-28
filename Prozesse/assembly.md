@@ -2,7 +2,7 @@
 
 - [Syntax](#syntax)
 - [Register](#register)
-- [Selber ausprobieren](#selber ausprobieren)
+- [Selber ausprobieren](#selber-ausprobieren)
 
 ## Syntax
 
