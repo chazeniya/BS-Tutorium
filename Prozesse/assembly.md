@@ -2,6 +2,7 @@
 
 - [Syntax](#syntax)
 - [Register](#register)
+- [Selber ausprobieren](#selber ausprobieren)
 
 ## Syntax
 
@@ -43,3 +44,5 @@ Nun muss das Programm mit Debug-Symbolen und keinerlei Optimierung kompiliert we
 
 Anschließend kann das Programm mit GDB debugged werden:
 `gdb math`
+
+Eine detaillierterte Anleitung findet ihr in diesem [Blog Post](https://www.recurse.com/blog/7-understanding-c-by-learning-assembly).
