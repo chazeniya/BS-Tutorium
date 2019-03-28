@@ -39,10 +39,7 @@ Im Beispiel oben ist `%eax`ein _General Purpose Register_, während `%rbp`und `%
 
 Um sein eigenes Programm zu disassemblen benötigt ihr einen Compiler und den einen Debugger, zum Beispiel [GBD](https://www.gnu.org/software/gdb/).
 
-Nun muss das Programm mit Debug-Symbolen und keinerlei Optimierung kompiliert werden:
-`CFLAGS="-g -O0" make math`
-
-Anschließend kann das Programm mit GDB debugged werden:
-`gdb math`
+Nun muss das Programm mit Debug-Symbolen und keinerlei Optimierung kompiliert werden: `CFLAGS="-g -O0" make math`
+Anschließend kann das Programm mit GDB debugged werden: `gdb math`
 
 Eine detaillierterte Anleitung findet ihr in diesem [Blog Post](https://www.recurse.com/blog/7-understanding-c-by-learning-assembly).
