@@ -25,6 +25,7 @@ if (pid == 0) {     /* Child Process */
 ## Selber ausführen
 
 Beide Dateien müssen zuerst kompiliert werden:
+
 `gcc fork.c -Wall -Og -o fork.o`
 
 `gcc child.c -Wall -Og -o child.o`
