@@ -21,3 +21,14 @@ if (pid == 0) {     /* Child Process */
 <p align="center">
   <img src="https://github.com/Treborium/BS-Tutorium/blob/master/res/images/fork.svg" alt="fork flow chart"/>
 </p>
+
+## Selber ausführen
+
+Beide Dateien müssen zuerst kompiliert werden:
+`gcc fork.c -Wall -Og -o fork.o`
+
+`gcc child.c -Wall -Og -o child.o`
+
+Anschließend kann das Beispiel ausgeführt werden: `./fork.o`.
+
+**Beachte**: `child.c` erwartet ein String als Argument und wird bei falscher eingabe eine Fehlermeldung produzieren!
