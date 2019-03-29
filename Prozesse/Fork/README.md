@@ -18,4 +18,4 @@ if (pid == 0) {     /* Child Process */
 
 `fork` erzeugt einen neuen Prozess und gibt je nachdem in welchem von den beiden Prozessen er sich befindet einen bestimmten Rückgabewert liefert.
 
-![fork Zustandsdiagramm](https://github.com/Treborium/BS-Tutorium/res/images/fork.svg)
+![fork Zustandsdiagramm](https://github.com/Treborium/BS-Tutorium/blob/master/res/images/fork.svg)
