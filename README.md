@@ -13,6 +13,11 @@ Ein solches Tool ist zum Beispiel [Pandoc](http://pandoc.org/index.html). Es kan
 Um zum Beispiel eine Markdown-Datei in ein Word-Dokument umzuwandeln kann einfach folgender Befehl in der Konsole genutzt werden:  
 `pandoc -o ausgabe-datei.docx -f markdown -t docx eingabe-datei.md`
 
+## Beispiele kompilieren
+
+Alle Beispielprogramme die in C oder C++ geschrieben sind können durch folgenden Befehl mithilfe von `gcc` kompiliert werden:
+`gcc source.c -Wall -Og -o outputFile`
+
 ## Kontakt
 
 > furo1013@hs-karlsruhe.de
