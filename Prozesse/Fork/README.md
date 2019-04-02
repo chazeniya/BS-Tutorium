@@ -22,7 +22,7 @@ if (pid == 0) {     /* Child Process */
   <img src="https://github.com/Treborium/BS-Tutorium/blob/master/res/images/fork.svg" alt="fork flow chart"/>
 </p>
 
-## Selber ausführen
+## Selber ausprobieren
 
 Beide Dateien müssen zuerst kompiliert werden:
 
