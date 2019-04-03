@@ -1,8 +1,17 @@
 # Tutorium für Betriebssysteme
 
-Dies ist das offiziele Repository für das Tutorium in Bertiebssysteme bei Robert Fuchs. Die Inhalte beziehen sich größten Teils auf die Folien von Professor Fuchß, mit eventuell kleinen Exkursen in andere Themengebiete.
+Dies ist das offiziele Repository für das Tutorium in Bertiebssysteme bei Robert Fuchs.
+Die Inhalte beziehen sich größten Teils auf die Folien von Professor Fuchß, mit eventuell kleinen Exkursen in andere Themengebiete.
 
 Jegliche Inhalte stehen dem Nutzer frei zur Verfügung.
+
+## Struktur
+
+Die Vorlesungsthemen sind in seperaten Ordnern mit den entpsrechenden Themen-Namen zu finden.
+In der Regel wird versucht die Ordnertiefe möglichst gering zu halten, und Unterordner nur hinzuzufügen wenn es der Übersichtlichkeit hilft. 
+
+Allerdings ist es möglich das Unterordner für weiterführende Themen oder Beispiele exisiteren.
+
 
 ## Markdown konvertieren
 
