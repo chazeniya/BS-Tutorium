@@ -5,6 +5,11 @@ Die Inhalte beziehen sich größten Teils auf die Folien von Professor Fuchß, m
 
 Jegliche Inhalte stehen dem Nutzer frei zur Verfügung.
 
+## Themen
+
+- [Prozesse](https://github.com/Treborium/BS-Tutorium/tree/master/Prozesse)
+- [Scheduling](https://github.com/Treborium/BS-Tutorium/tree/master/Scheduling)
+
 ## Struktur
 
 Die Vorlesungsthemen sind in seperaten Ordnern mit den entpsrechenden Themen-Namen zu finden.
