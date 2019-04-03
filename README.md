@@ -12,6 +12,11 @@ In der Regel wird versucht die Ordnertiefe möglichst gering zu halten, und Unte
 
 Allerdings ist es möglich das Unterordner für weiterführende Themen oder Beispiele exisiteren.
 
+<p align="center">
+  <img src="https://github.com/Treborium/BS-Tutorium/blob/master/res/images/repo-hierarchy.png" alt="Example file hierarchy"/>
+</p>
+
+> Dies ist nur ein Beispielbild und zeigt nicht notwendigerweise die tatsächliche Repo-Struktur.
 
 ## Markdown konvertieren
 
