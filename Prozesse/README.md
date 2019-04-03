@@ -13,3 +13,7 @@ Welche Vorteile könnten sich in obigem Szenario durch ein Protection-Ring-Konze
 
 Beschreiben Sie den typischen Ablauf, der es einem Prozess ermöglicht, Aktionen auszuführen, für die er aufgrund seines Privilege Levels keine Berechtigung hat. Beginnen Sie ab dem Punkt an dem die Hardware den neuen Privilege Level einstellt und beenden Sie Ihre Beschreibung an dem Punkt an dem der ursprüngliche Prozess wieder weiterläuft.
 Hinweis: Einen eventuellen durch das BS initiierten Prozesswechsel müssen Sie nicht beachten.
+
+--- 
+
+Die Aufgaben liegen auch als [Office Document Text](https://github.com/Treborium/BS-Tutorium/blob/master/Prozesse/Aufgabe-1.odt)-File zusammen mit den [Lösungen](https://github.com/Treborium/BS-Tutorium/blob/master/Prozesse/Aufgabe-1-Loesung.odt) im Repository.
