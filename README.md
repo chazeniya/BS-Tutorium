@@ -29,7 +29,7 @@ Falls sich jemand mit Markdown nicht wohl fühlt so kann Markdown mithilfe eines
 
 Ein solches Tool ist zum Beispiel [Pandoc](http://pandoc.org/index.html). Es kann auf allen gängigen Betriebssystemen [installiert](http://pandoc.org/installing.html) werden und besitzt eine detaillierte [Dokumentation](http://pandoc.org/MANUAL.html).
 
-Um zum Beispiel eine Markdown-Datei in ein Word-Dokument umzuwandeln kann einfach folgender Befehl in der Konsole genutzt werden:  
+Markdown in Word-Dokument konvertieren:  
 `pandoc -o ausgabe-datei.docx -f markdown -t docx eingabe-datei.md`
 
 ## Beispiele kompilieren
