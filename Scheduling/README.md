@@ -8,7 +8,7 @@
 
 ## Aufgabe 2
 
-Gegeben  sei  die  folgende  Menge  von  Aufgaben.  Wobei  für  jede  Aufgabe  der  Zeitpunkt  zu dem  sie  gestellt  wird  und  die genaue Bearbeitungsdauer  bekannt  sind. Der Scheduler ist nicht präemptiv!
+Gegeben  sei  die  folgende  Menge  von  Aufgaben.  Wobei  für  jede  Aufgabe  der  Zeitpunkt  zu dem  sie  gestellt  wird  und  die genaue Bearbeitungsdauer  bekannt  sind. Der Scheduler ist **nicht** präemptiv!
 
 Geben sie einen Abarbeitungsplan an, der nach dem SJF-Prinzip arbeitet und berechen sie die durchschnittliche Umlaufzeit.
 
