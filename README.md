@@ -9,6 +9,7 @@ Jegliche Inhalte stehen dem Nutzer frei zur Verfügung.
 
 - [Prozesse](https://github.com/Treborium/BS-Tutorium/tree/master/Prozesse)
 - [Scheduling](https://github.com/Treborium/BS-Tutorium/tree/master/Scheduling)
+- [Festplatten](https://github.com/Treborium/BS-Tutorium/tree/master/Festplatten)
 
 ## Struktur
 
