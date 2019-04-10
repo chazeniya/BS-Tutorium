@@ -30,4 +30,4 @@ Geben  Sie  einen  Abarbeitungsplan an, so dass die durchschnittliche Umlaufzeit
 
 ---
 
-Die Aufgaben liegen auch als [Office Document Text-File](https://github.com/Treborium/BS-Tutorium/blob/master/Scheduling/Aufgaben.odt) im Repository.
+Die Aufgaben liegen auch als [Office Document Text-File](https://github.com/Treborium/BS-Tutorium/blob/master/Scheduling/Aufgaben.odt) zusammen mit den [Lösungen](https://github.com/Treborium/BS-Tutorium/blob/master/Scheduling/Aufgaben-Loesung.odt) im Repository.
